@@ -16,7 +16,7 @@ export default function UploadButton() {
     return (
         <>
         <input type="file" ref={inputRef} className="hidden" onChange={handleFile} />
-        <Button className={"w-[7%] bg-yellow-300 hover:bg-yellow-600 ml-auto mr-6"} handleClick={() => {handleUpload(inputRef)}}> Download </Button>
+        <Button className={"w-[7%] bg-yellow-300 hover:bg-yellow-600 ml-auto mr-6"} handleClick={() => {handleUpload(inputRef)}}> Upload </Button>
         </>
     )
 }
